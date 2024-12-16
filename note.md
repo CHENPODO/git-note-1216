@@ -1,4 +1,4 @@
-# git 版控 12/16
+# 12/16 Git Note
 
 ## 官方文件
 
@@ -22,7 +22,7 @@
    全部加入 `git add --all -A`
 
 4. **留言** `git commit -m 'first commit'`
-5. **del** > 恢復 `git restore`
+5. **del** > 恢復 新指令`git restore`
 
    暫存區(add) >= 存 (commit)
 
@@ -33,7 +33,11 @@
 
 7. **分支** `git branch `
 
-   **開分支** `git branch cat` master 轉換到 cat 這個分支上 `git switch cat`
+   **開分支** `git branch cat`
+
+   **切換分支** 新指令`git switch cat` 舊指令`git checkout cat`
+
+   **分離分支**
 
    **刪除分支** `git branch -d`
 
