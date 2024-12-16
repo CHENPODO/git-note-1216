@@ -35,11 +35,14 @@
 
    **開分支** `git branch cat`
 
-   **切換分支** 新指令`git switch cat` 舊指令`git checkout cat`
+   **切換分支** 新指令`git switch cat`
+
+   **舊指令** `git checkout cat`
+   **前一後一步 快速切換** `git branch - `
 
    **分離分支**
 
    **刪除分支** `git branch -d`
 
-8.
+8. **使用現分支合併** `git merge cat`
 9.
