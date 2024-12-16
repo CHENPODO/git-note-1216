@@ -39,7 +39,12 @@
 
    **分離分支**
 
-   **刪除分支** `git branch -d`
+   **刪除分支** `git branch -d `
 
+<<<<<<< HEAD
 8.
 9.
+=======
+8. **合併分支** `git merge`
+9. **可以看手冊** `git help`
+>>>>>>> c7146aab2001e394d01abb1702bbd664c76ce3c5
