@@ -48,8 +48,10 @@
 `git reset`
 **--mixed** > 工作 /**--soft** >暫存區 /**--hard** > X
 
-- caret ^ 退一步
+- caret ^ 退一步，退回第一個 parents
 - tilde ~ ~50 退 50 步
 
 10. **看到`HEAD`移動紀錄** `git reflog`
-11.
+11. **修訂最後** `git commit -amend`
+12. `git rebase -i `
+13. `git rebase -continue`
