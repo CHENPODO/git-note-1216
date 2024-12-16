@@ -13,24 +13,29 @@
 
 ## 指令
 
-1. 初始化 `git init`
-2. 狀態 `git status`
-3. 加入暫存區 `git add`
+1. **初始化** `git init`
+2. **狀態** `git status`
+3. **加入暫存區** `git add`
 
    那個點是 here `git add .`
 
    全部加入 `git add --all -A`
 
-4. 留言 `git commit -m 'first commit'`
-5. del > 恢復 `git restore`
+4. **留言** `git commit -m 'first commit'`
+5. **del** > 恢復 `git restore`
 
    暫存區(add) >= 存 (commit)
 
-6. 歷史紀錄 > 作者、日期
+6. **歷史紀錄** > 作者、日期
 
    退出 q `git log`
    `git log --oneline`
 
-7.
+7. **分支** `git branch `
+
+   **開分支** `git branch cat` master 轉換到 cat 這個分支上 `git switch cat`
+
+   **刪除分支** `git branch -d`
+
 8.
 9.
