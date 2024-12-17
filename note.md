@@ -6,6 +6,12 @@
 
   🔗:https://www.conventionalcommits.org/zh-hant/v1.0.0-beta.4/
 
+  **自動化程式**
+
+        - zapier
+        - n8n
+        - make
+
   - snapshot 快照
   - 工作目錄 Working Directory
   - 暫存區 Staging Area
@@ -64,7 +70,7 @@
 
 15. **新增遠端書籤，origin 可更改喜愛的名稱**
 
-    `git remote add origin ---> 網址 `
+    `git remote add origin -網址 `
 
 16. **SSH KEY 會產生公、私鑰**
 17. **http -> github acc**
@@ -80,4 +86,9 @@
 
     `git push origin NULL:dev`
 
-21. \*\*\*\* `git fetch main origin`
+21. **抓取** `git fetch cat main`
+22. **發 PR -> Pull Request** `git pull`
+    GitLab -> 發 MR -> Merge Request
+23. **抓檔案下來**
+
+    `git clone -網址`
