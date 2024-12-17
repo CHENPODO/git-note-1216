@@ -55,3 +55,29 @@
 11. **修訂最後** `git commit -amend`
 12. `git rebase -i `
 13. `git rebase -continue`
+
+# 12/17 Git Note
+
+14. **更改現有分支到 main**
+
+    `git branch -M main`
+
+15. **新增遠端書籤，origin 可更改喜愛的名稱**
+
+    `git remote add origin ---> 網址 `
+
+16. **SSH KEY 會產生公、私鑰**
+17. **http -> github acc**
+18. **上傳 main 分支上 origin**
+    `git push origin main`
+19. **-u = --set-upstream 設定追蹤**
+
+    `git push --set-upstream origin main`
+
+20. `git push origin main:dev`
+
+    **會把 dev 遠端分支刪除**
+
+    `git push origin NULL:dev`
+
+21. \*\*\*\* `git fetch main origin`
